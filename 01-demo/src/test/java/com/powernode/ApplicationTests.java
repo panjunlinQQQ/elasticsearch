@@ -260,6 +260,10 @@ class ApplicationTests {
 
 
     }
+    @Test
+    public void test13(){
+        new NativeSearchQueryBuilder().withPageable(PageRequest.of(1,2));
+    }
 
 }
 
